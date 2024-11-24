@@ -1,7 +1,7 @@
 import tensorflow as tf
 import helper
     
-model = tf.keras.models.load_model("pets")
+model = tf.keras.models.load_model("pets.keras")
 
 while True:
   url = input("Please enter an image url:")
